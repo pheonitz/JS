@@ -13,3 +13,9 @@ console.log(undefined == 0)
 // === check not only the value but also the datatype
 
 console.log(2 === "2")
+
+//  primitive data types : call by value always
+// string  number null boolean undefined bigint symbol
+
+// Non primitive :always called by reference: ARRAY , OBJECTS , FUNCTIONS
+
