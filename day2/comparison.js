@@ -19,3 +19,23 @@ console.log(2 === "2")
 
 // Non primitive :always called by reference: ARRAY , OBJECTS , FUNCTIONS
 
+// +++++++++++++++++++++++++++++++++++
+
+// Stack(primitive) heap (Non primitive)
+// eg ::: 
+let employee = {
+    age : 20,
+    name : "nitish"
+}
+
+let emp1 = employee
+let emp2 = employee
+
+console.log("befor changing : ")
+console.log(emp1.age)
+console.log(emp2.age)
+
+console.log('after changing : ')
+emp1.age = 23
+console.log(emp1.age)
+console.log(emp2.age)
