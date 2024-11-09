@@ -16,3 +16,10 @@ for (const key in arr) {
    console.log(key);
    
 }
+// for each do not return a values 
+const values = arr.forEach((item) => {
+   console.log(item);
+   
+})
+
+console.log(values)
