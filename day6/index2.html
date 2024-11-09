@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #212121; color: #ffff;">
+    
+</body>
+<script>
+    let div = document.createElement('div')
+    console.log(div)
+    div.className = "main"
+    div.id = "div"
+    div.setAttribute("title" , "generated title")
+    div.style.padding = "20px"
+    div.style.backgroundColor = "white"
+    // div.innerText = "Nitish chaudhary" not a good style
+
+    const addtext = document.createTextNode("Nitish chaudhary")
+    div.appendChild(addtext)
+
+    div.style.color = "black"
+
+    // append
+    document.body.appendChild(div)
+</script>
+</html>
